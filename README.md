@@ -10,7 +10,7 @@
 
 ## Problem it solves
 
-Support spread across WhatsApp, email and chat means context gets lost and replies are slow. Fully autonomous bots are risky for customer-facing answers. This inbox unifies the channels and keeps a human approval gate on every outbound AI draft.
+Support spread across WhatsApp, email and chat means context gets lost and replies are slow. Fully autonomous bots are risky for customer-facing answers. This inbox unifies the channels and keeps a human approval gate on every outbound AI draft. It is built as the webhook backend for a n8n scenario: the automation platform handles triggers, and this service holds the logic and data.
 
 ## Architecture
 
@@ -31,7 +31,7 @@ Support spread across WhatsApp, email and chat means context gets lost and repli
 
 ## Tech stack
 
-![Python](https://img.shields.io/badge/Python-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![FastAPI](https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![n8n](https://img.shields.io/badge/n8n-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![OpenAI](https://img.shields.io/badge/OpenAI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Jinja2](https://img.shields.io/badge/Jinja2-161b22?style=for-the-badge&labelColor=161b22&color=161b22)
+![Python](https://img.shields.io/badge/Python-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![FastAPI](https://img.shields.io/badge/FastAPI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Webhooks](https://img.shields.io/badge/Webhooks-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![OpenAI](https://img.shields.io/badge/OpenAI-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-161b22?style=for-the-badge&labelColor=161b22&color=161b22) ![Jinja2](https://img.shields.io/badge/Jinja2-161b22?style=for-the-badge&labelColor=161b22&color=161b22)
 
 ## What it does in practice
 
@@ -42,6 +42,10 @@ Support spread across WhatsApp, email and chat means context gets lost and repli
 **Unified inbox across channels**
 
 ![Unified inbox across channels](assets/00-home.png)
+
+**Conversation with an AI draft awaiting human approval**
+
+![Conversation with an AI draft awaiting human approval](assets/10-conversation.png)
 
 ---
 
