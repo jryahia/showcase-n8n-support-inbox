@@ -39,6 +39,8 @@ Support spread across WhatsApp, email and chat means context gets lost and repli
 
 ## Screenshots
 
+> Screenshots show the app running on seeded demo data, not client data.
+
 **Unified inbox across channels**
 
 ![Unified inbox across channels](assets/00-home.png)
